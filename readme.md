@@ -35,7 +35,7 @@ If you've experienced even just one of the limitations listed above, *Sketch Res
 #### Via Sketch Runner
 * Trigger [Sketch Runner](http://bit.ly/SketchRunnerWebsite) (`cmd+'`)
 * Move to the *Install* tab
-* Search for *Sketch Resize* and install it
+* Search for *Resize* and install it
 
 ## Usage
 * **Select** layer(s)
