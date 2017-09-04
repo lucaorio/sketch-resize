@@ -1,0 +1,43 @@
+{
+  "name": "sketch-resize",
+  "version": "1.0.0",
+  "description": "Unproportional, unconstrained resize at your fingertips",
+  "author": "Luca Orio",
+  "homepage": "https://github.com/lucaorio/sketch-resize#readme",
+  "main": "plugin.sketchplugin",
+  "scripts": {
+    "test": "",
+    "build": "skpm build",
+    "publish": "skpm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaorio/sketch-resize.git"
+  },
+  "keywords": [
+    "sketch",
+    "sketchapp",
+    "plugin",
+    "resize",
+    "scale",
+    "unproportional",
+    "unproportional resize",
+    "unproportional scale"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucaorio/sketch-resize/issues"
+  },
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "manifest": "src/manifest.json",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-sketch": "^0.2.2",
+    "skpm": "^0.9.14"
+  },
+  "dependencies": {
+    "mathjs": "^3.14.2"
+  }
+}

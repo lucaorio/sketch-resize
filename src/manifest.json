@@ -1,0 +1,22 @@
+{
+  "author": "Luca Orio",
+  "name": "Resize",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.sketch.resize",
+  "appcast": "https://raw.githubusercontent.com/lucaorio/sketch-resize/master/appcast.xml",
+  "commands": [{
+    "name": "Resize Elements",
+    "identifier": "resize",
+    "script": "./resize.js",
+    "description": "Unproportional, unconstrained resize on selected elements",
+    "icon" : "icons/resize.png",
+    "shortcut": "ctrl cmd k"
+    }],
+    "menu": {
+      "title": "Resize",
+      "items": [
+        "resize"
+      ]
+    }
+}
