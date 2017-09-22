@@ -16,7 +16,7 @@ const resize = ctx => {
 const getDimensions = () => {
   const alert = COSAlertWindow.new();
   alert.setMessageText('Resize Element(s)');
-  alert.setInformativeText('Enter new width / height. To skip a dimension leave its field empty. Resize is unconstrained.');
+  alert.setInformativeText('Enter new width / height. Leave an empty field to skip the dimension. Resize is unconstrained.');
 
   alert.addTextLabelWithValue('Width');
   alert.addTextFieldWithValue('');
