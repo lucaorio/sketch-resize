@@ -3,7 +3,7 @@
   <channel>
     <title>Sketch Resize</title>
     <link>https://github.com/lucaorio/sketch-resize</link>
-    <description>Unproportional, unconstrained resize at your fingertips.</description>
+    <description>Resize (not scale) multiple layers at once via shortcut.</description>
     <language>en</language>
       <item>
         <title>Sketch Resize 1.0.0</title>
@@ -15,6 +15,18 @@
           ]]>
         </description>
         <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.0/sketch-resize.zip" sparkle:version="1.0.0" />
+      </item>
+      <item>
+        <title>Sketch Resize 1.0.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Changed plugin description</li>
+              <li>Changed dialog description</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.1/sketch-resize.zip" sparkle:version="1.0.0" />
       </item>
   </channel>
 </rss>

@@ -9,7 +9,7 @@
     "name": "Resize Elements",
     "identifier": "resize",
     "script": "./resize.js",
-    "description": "Unproportional, unconstrained resize on selected elements",
+    "description": "Resize (not scale) multiple layers at once via shortcut",
     "icon" : "icons/resize.png",
     "shortcut": "ctrl cmd k"
     }],

@@ -1,8 +1,8 @@
 # Sketch Resize
 ![Sketch Resize](images/img-header.jpg)
-> Unproportional, unconstrained resize at your fingertips
+> Resize (not scale) multiple layers at once via shortcut
 
-**Sketch Resize** is a plugin made for [Sketch](http://sketchapp.com). It helps designers to *Resize* multiple layers at once via shortcut, without reaching the inspector panel. Read the [why this plugin](#why-this-plugin) section to better understand how it differs from some of the [native features](https://www.sketchapp.com/learn/documentation/layer-basics/resizing-layers) already provided in Sketch.
+**Sketch Resize** is a plugin made for [Sketch](http://sketchapp.com). It helps designers to *Resize* multiple layers at once via shortcut, without reaching the inspector panel. Unproportional, unconstrained resize at your fingertips. Read the [why this plugin](#why-this-plugin) section to better understand how it differs from some of the [native features](https://www.sketchapp.com/learn/documentation/layer-basics/resizing-layers) already provided in Sketch.
 
 Follow me on Twitter [@lucaorio_](https://twitter.com/lucaorio_) for updates, help and other stuff! 🎉
 
