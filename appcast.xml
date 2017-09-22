@@ -26,7 +26,7 @@
             </ul>
           ]]>
         </description>
-        <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.1/sketch-resize.zip" sparkle:version="1.0.0" />
+        <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.1/sketch-resize.zip" sparkle:version="1.0.1" />
       </item>
   </channel>
 </rss>
