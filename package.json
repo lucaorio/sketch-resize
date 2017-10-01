@@ -1,6 +1,6 @@
 {
   "name": "sketch-resize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resize (not scale) multiple layers at once via shortcut",
   "author": "Luca Orio",
   "homepage": "https://github.com/lucaorio/sketch-resize#readme",

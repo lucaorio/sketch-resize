@@ -45,7 +45,6 @@ const getDimensions = () => {
 const iterate = (doc, sel, dim) => {
   sel.iterate((layer) => {
     const f = layer.sketchObject.frame();
-    log(f.width());
     f.setRect_(NSMakeRect(f.x(), f.y(), dim.width || f.width(), dim.height || f.height()));
   });
 
