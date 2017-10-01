@@ -24467,7 +24467,6 @@ var getDimensions = function getDimensions() {
 var iterate = function iterate(doc, sel, dim) {
   sel.iterate(function (layer) {
     var f = layer.sketchObject.frame();
-    log(f.width());
     f.setRect_(NSMakeRect(f.x(), f.y(), dim.width || f.width(), dim.height || f.height()));
   });
 

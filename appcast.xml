@@ -28,5 +28,16 @@
         </description>
         <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.1/sketch-resize.zip" sparkle:version="1.0.1" />
       </item>
+      <item>
+        <title>Sketch Resize 1.0.2</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Various bugfixes</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/lucaorio/sketch-resize/releases/download/v1.0.2/sketch-resize.zip" sparkle:version="1.0.2" />
+      </item>
   </channel>
 </rss>
