@@ -6,6 +6,11 @@
 
 Follow me on Twitter [@lucaorio_](https://twitter.com/lucaorio_) for updates, help and other stuff! 🎉
 
+*Looking for other plugins? Give these a try!* 😎
+
+[<img alt="Sketch Styles Generator" src="https://raw.githubusercontent.com/lucaorio/sketch-resize/master/images/img-sketch-styles-generator.jpg" height="111px"/>](https://github.com/lucaorio/sketch-styles-generator)
+[<img alt="Sketch Reverse" src="https://raw.githubusercontent.com/lucaorio/sketch-resize/master/images/img-sketch-reverse.jpg" height="111px"/>](https://github.com/lucaorio/sketch-reverse)
+
 ## Contents
 - [Why this plugin?](#why-this-plugin)
 - [Installation](#installation)
