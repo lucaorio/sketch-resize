@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sketch Resize</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <header data-app-region="drag">
+      Resize Element(s)
+    </header>
+
+    <section>
+      <p class="info">Enter the new <strong>width/height</strong> of every selected element.</p>
+      <div>
+        <input id="width" type="text" name="width" placeholder="Specify width, or leave empty" value="%w" autofocus>
+        <input id="height" type="text" name="height" placeholder="Specify height, or leave empty" value="%h">
+      </div>
+      <p class="tip">
+        Use %w, and %h as wildcards for math operations (i.e. %w + 24). The resizing is unconstrained,
+        and doesn't affect any other property like corner radius, border thickness, shadow size, etc.
+      </p>
+    </section>
+
+    <footer>
+      <button id="cancel">Cancel</button>
+      <button id="submit">Confirm and Resize</button>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+
+</html>
