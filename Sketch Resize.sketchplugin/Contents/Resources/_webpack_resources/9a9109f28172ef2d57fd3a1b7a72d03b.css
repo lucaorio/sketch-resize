@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1px;
+  color: #9c9c9c;
+  background: #171717;
+  font-family: -apple-system;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: default;
+}
+
+*,
+*:before,
+*:after {
+  position: relative;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input,
+textarea {
+  -webkit-user-select: auto;
+  user-select: auto;
+}
+
+/* -------------------------------- */
+/* header/menubar                   */
+/* -------------------------------- */
+
+header {
+  border-bottom: 1px solid #000000;
+  height: 37px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #242424;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+
+/* -------------------------------- */
+/* section/content                  */
+/* -------------------------------- */
+
+section {
+  padding: 24px;
+}
+
+section > p.info {
+  margin-bottom: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section > p.info > strong {
+  color: #ffffff;
+}
+
+section > div {
+  font-size: 0;
+}
+
+section > div > input {
+  display: inline-block;
+  margin-bottom: 16px;
+  border: 2px solid #242424;
+  border-radius: 4px;
+  padding: 12px;
+  width: calc(50% - 4px);
+  background-color: #242424;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+section > div > input:focus {
+  outline: 0;
+  border: 2px solid #1c7ed5;
+}
+
+section > div > input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+section > div > input#width {
+  margin-right: 8px;
+}
+
+section > p.tip {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* -------------------------------- */
+/* footer/actions                   */
+/* -------------------------------- */
+
+footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  background-color: #242424;
+  font-size: 0;
+  text-align: right;
+}
+
+footer > button {
+  display: inline-block;
+  height: 40px;
+  border: 0;
+  border-radius: 4px;
+  padding: 0 12px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+footer > button:focus {
+  outline: 0;
+}
+
+footer > button:focus:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  border: 2px solid #1c7ed5;
+  border-radius: 6px;
+}
+
+footer > button#cancel {
+  margin-right: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+}
+
+footer > button#cancel:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer > button#submit {
+  border: 1px solid #1c7ed5;
+  background-color: #1c7ed5;
+}
+
+footer > button#submit:hover {
+  background-color: #186bb5;
+}
