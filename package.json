@@ -1,15 +1,10 @@
 {
   "name": "sketch-resize",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Resize (not scale) multiple layers at once via shortcut",
-  "author": "Luca Orio",
+  "author": "Luca Orio <luca.o@me.com>",
   "homepage": "https://github.com/lucaorio/sketch-resize#readme",
-  "main": "plugin.sketchplugin",
-  "scripts": {
-    "test": "",
-    "build": "skpm build",
-    "publish": "skpm publish"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucaorio/sketch-resize.git"
@@ -24,20 +19,38 @@
     "unproportional resize",
     "unproportional scale"
   ],
-  "license": "MIT",
+  "engines": {
+    "sketch": ">=54.0"
+  },
   "bugs": {
     "url": "https://github.com/lucaorio/sketch-resize/issues"
   },
-  "engines": {
-    "sketch": ">=3.0"
+  "scripts": {
+    "watch": "skpm-build --watch",
+    "lint": "eslint src/**/*.js && prettier --write src/**/*.js",
+    "build": "yarn lint && skpm-build",
+    "postinstall": "yarn build && skpm-link"
   },
-  "manifest": "src/manifest.json",
+  "assets": [
+    "assets/**/*.*"
+  ],
+  "resources": [
+    "resources/webview/**/*.js"
+  ],
+  "skpm": {
+    "name": "Sketch Resize",
+    "manifest": "src/manifest.json",
+    "main": "Sketch Resize.sketchplugin"
+  },
   "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-sketch": "^0.2.2",
-    "skpm": "^0.9.14"
-  },
-  "dependencies": {
-    "mathjs": "^3.14.2"
+    "@skpm/builder": "^0.5.11",
+    "@skpm/extract-loader": "^2.0.2",
+    "babel-eslint": "^10.0.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.11.1",
+    "eslint-plugin-import": "^2.14.0",
+    "html-loader": "^0.5.1",
+    "prettier": "^1.16.4",
+    "sketch-module-web-view": "^3.0.1"
   }
 }

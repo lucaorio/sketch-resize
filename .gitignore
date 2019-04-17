@@ -1,7 +1,12 @@
-plugin.sketchplugin/*
 node_modules
-.npm
-npm-debug.log
+build
 .DS_Store
 .DS_Store?
 ._*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
