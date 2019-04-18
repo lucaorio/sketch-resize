@@ -4,6 +4,7 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "identifier": "com.sketch.resize",
+  "icon": "sketch-icon.png",
   "appcast": "https://raw.githubusercontent.com/lucaorio/sketch-resize/master/appcast.xml",
   "commands": [
     {
@@ -21,7 +22,7 @@
       "main"
     ]
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Resize (not scale) multiple layers at once via shortcut",
   "homepage": "https://github.com/lucaorio/sketch-resize#readme",
   "disableCocoaScriptPreprocessor": true
